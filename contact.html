@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | Atharva Enterprises</title>
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container header__top">
+    <a class="logo" href="index.html">
+      <img src="images/logo.png" alt="Atharva Enterprises logo">
+      <span><strong>Atharva Enterprises</strong><small>Printing | Stationery | Business Supplies</small></span>
+    </a>
+    <form class="search" role="search" onsubmit="return false">
+      <input type="search" placeholder="Search for products, brands or categories..." aria-label="Search">
+      <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+    </form>
+    <div class="header__actions">
+      <a class="contact" href="tel:9019762699"><strong>9019762699</strong><span class="wa">WhatsApp Us</span></a>
+      <a class="icon-link" href="#"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span>Login<br>Logout</span></a>
+      <a class="icon-link" href="#" aria-label="Wishlist"><svg viewBox="0 0 24 24"><path d="M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 10c0 6-8 11-8 11z"/></svg></a>
+      <a class="icon-link cart" href="#" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M3 4h3l2.5 11h10L21 7H7"/><circle cx="9" cy="19" r="1.3"/><circle cx="18" cy="19" r="1.3"/></svg><b>0</b></a>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container nav__inner">
+      <button class="nav__all" type="button">&#9776; All Categories &#9662;</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#categories">Products</a></li>
+        <li><a href="#">Printing Services</a></li>
+        <li><a href="index.html#quote">Bulk Supply</a></li>
+        <li><a href="#">Industries</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      <a class="btn btn--sm" href="index.html#quote">Request a Quote</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<!-- PAGE HEADER -->
+<section class="page-hero">
+  <div class="container">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Contact Us</span></nav>
+    <h1>Contact Us</h1>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact-page" id="contact">
+  <div class="container contact__grid">
+    <div class="contact__info">
+      <h2>Closer with Us</h2>
+      <p>Have questions about our stationery products or bulk orders? Our team is here to help. Contact Atharva Enterprises for product inquiries, pricing details, or order assistance. We ensure quick response and reliable service.</p>
+      <ul class="contact__list">
+        <li class="contact__item">
+          <span class="contact__icon"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+          <div><h3>Location</h3><address>314, 3rd Floor, Laxmi Niwas,<br>N. M. Joshi Marg, Byculla (W),<br>Mumbai - 400 027.</address></div>
+        </li>
+        <li class="contact__item">
+          <span class="contact__icon"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+          <div><h3>Phone</h3><a href="tel:9819976369">9819976369</a></div>
+        </li>
+        <li class="contact__item">
+          <span class="contact__icon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+          <div><h3>Email</h3><a href="mailto:atharva.etpz@gmail.com">atharva.etpz@gmail.com</a></div>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact__form" id="contactForm">
+      <h3>Send us a message</h3>
+      <div class="contact__fields">
+        <input type="text" name="name" placeholder="Your Name*" aria-label="Your Name" required>
+        <input type="tel" name="phone" placeholder="Phone Number*" aria-label="Phone Number" required>
+        <input type="email" name="email" class="full" placeholder="Email Address*" aria-label="Email Address" required>
+        <textarea name="message" class="full" rows="5" placeholder="How can we help you?*" aria-label="Your message" required></textarea>
+      </div>
+      <button class="btn" type="submit">Send Message &rarr;</button>
+    </form>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="section map">
+  <div class="container">
+    <div class="section__head"><div><h2>Find Us</h2></div></div>
+    <iframe title="Atharva Enterprises location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Laxmi%20Niwas%2C%20N.%20M.%20Joshi%20Marg%2C%20Byculla%20West%2C%20Mumbai%20400027&amp;output=embed"></iframe>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a class="logo" href="index.html">
+        <img src="images/logo.png" alt="Atharva Enterprises logo">
+        <span><strong>Atharva Enterprises</strong><small>Printing | Stationery | Business Supplies</small></span>
+      </a>
+      <p>314, 3rd Floor, Laxmi Niwas, N. M. Joshi Marg, Byculla (W), Mumbai - 400027</p>
+      <div class="social">
+        <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"/><path d="M17.5 6.5h.01"/></svg></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a href="#" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M2.5 17a24 24 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.6 49.6 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24 24 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.6 49.6 0 0 1-16.2 0A2 2 0 0 1 2.5 17z"/><path d="m10 15 5-3-5-3z"/></svg></a>
+        <a href="https://wa.me/919019762699" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.6-5.4A8.4 8.4 0 1 1 21 11.5z"/><path d="M9 8.5c0 3 2.5 5.500 5.500 5.500l1-1.500-1.800-.9-.8.800a4 4 0 0 1-1.800-1.800l.8-.8-.9-1.800z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h3>Quick Links</h3>
+      <a href="index.html">Home</a><a href="index.html#categories">Products</a><a href="#">Printing Services</a><a href="#">Industries</a><a href="about.html">About Us</a><a href="contact.html">Contact</a>
+    </div>
+    <div class="footer__col">
+      <h3>Our Policies</h3>
+      <a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Shipping Information</a><a href="#">Returns &amp; Refunds</a><a href="#">FAQ</a>
+    </div>
+    <div class="footer__cta">
+      <a class="btn btn--wa" href="https://wa.me/919019762699">WhatsApp Us</a>
+      <a class="btn" href="index.html#quote">Request a Quote</a>
+    </div>
+  </div>
+  <div class="footer__bar container">
+    <span>&copy; 2026 Atharva Enterprises. All Rights Reserved.</span>
+    <span>Designed for a Smarter, More Productive Tomorrow</span>
+  </div>
+</footer>
+
+<script>
+// Opens the visitor's email app with the message pre-filled (no backend needed).
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var body = 'Name: ' + f.name.value + '\nPhone: ' + f.phone.value + '\nEmail: ' + f.email.value + '\n\n' + f.message.value;
+  window.location.href = 'mailto:atharva.etpz@gmail.com?subject=' + encodeURIComponent('Website enquiry from ' + f.name.value) + '&body=' + encodeURIComponent(body);
+});
+</script>
+
+</body>
+</html>
